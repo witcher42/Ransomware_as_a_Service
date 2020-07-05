@@ -6,7 +6,7 @@ int     disk_recon(char drive)
 {
 	int i;
 	FILE* fs;
-	char file_list = "srcs/oss.png";
+	char file_list[] = "srcs/oss.png";
 
 	if ((fs = fopen(file_list, "w")) != NULL)
 	{	//확장자바꾸기
