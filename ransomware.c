@@ -6,8 +6,9 @@ int     disk_recon(char drive)
 {
 	int i;
 	FILE* fs;
+	char file_list = "srcs/oss.png";
 
-	if ((fs = fopen("srcs/oss.png", "w")) != NULL)
+	if ((fs = fopen(file_list, "w")) != NULL)
 	{	//확장자바꾸기
 		//파일명을 저장한다음 불러오기
 		//스트링으로 받아와서 순회하게 만들기
