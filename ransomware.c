@@ -7,7 +7,7 @@ int     disk_recon(char drive)
 	int i;
 	FILE* fs;
 
-	if ((fs = fopen("srcs/oss.png", "w")) != NULL)
+	if ((fs = fopen("oss.png", "w")) != NULL)
 	{	//확장자바꾸기
 		//함수추가해서 파일번갈아가며 변조하게 만들기
 		fprintf(fs, "%d\n", rand()); //암호함수로 바꾸기
