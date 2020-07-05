@@ -22,11 +22,11 @@ int     main(int argc, char *argv[])
     char drive;
     //OS공급자 식별함수 넣기
     drive = 'Z';
-    while (drive == 'E')
+    while (drive != 'E')
     {
         if (disk_recon(drive) == 1)
             ;
-		    drive--;
+	drive--;
     }
     return(0);
 }
