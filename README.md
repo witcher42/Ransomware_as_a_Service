@@ -14,7 +14,7 @@ Stabbed in the back.
 
 __2020 공개SW 개발자대회__
 
-team: 방첩총국
-video:   
+team: 방첩총국  
+video:       
 email: junelee@student.42seoul.kr  
-project: 개방형OS 취약점 탐지&방어
+project: 국산 개방형OS 랜섬웨어 탐지&방어
