@@ -1,3 +1,7 @@
+>*"랜섬웨어는 돈을 줘도 풀어주지 않는다."*  
+>>**데이터 인프라 보호를 위한 K-CyberSecurity 방역체계 구축**  
+>>20.7.10 산업기술보호협회 김선영, 인천정보보호컨퍼런스  
+  
 # Warning!  
 __[Ransomware]__  
 Do not use illegally.  
